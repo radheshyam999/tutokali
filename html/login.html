@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <nav class="navbar navbar-nav navbar-fixed-top">
+    <div class="container-fulid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar" style="background-color:red;"></span>
+          <span class="icon-bar" style="background-color:red;"></span>
+          <span class="icon-bar" style="background-color:red;"></span>
+        </button>
+        <a class="navbar-brand" href="#">logo goes here</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class=" nav navbar-nav">
+          <li><a href="#">Home</a></li>
+          <li><a href="#" >what we do</a></li>
+          <li><a href="#" >Our Service</a></li>
+          <li><a href="#" >who we Are</a></li>
+          <li><a href="#" >about us</a></li>
+        </ul>
+<ul class="nav navbar-nav navbar-right">
+        <li><a href="signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li class="active"><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+      </div>
+    </div>
+  </nav>
+
+<div class="container-fulid" style="padding-top:100px;">
+  <form class="form-horizontal" action="/action_page.php">
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="email">Email:</label>
+      <div class="col-sm-5">
+        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" required>
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="pwd">Password:</label>
+      <div class="col-sm-5">
+        <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd" required>
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="col-sm-offset-2 col-sm-10">
+        <div class="checkbox">
+          <label><input type="checkbox" name="remember"> Remember me</label>
+        </div>
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="col-sm-offset-2 col-sm-10">
+        <button type="submit" class="btn btn-default">Login</button>
+      </div>
+    </div>
+  </form>
+</div>
+</body>
+</html>
